@@ -6,6 +6,7 @@
 //
 
 /*
+ github: https://github.com/iOSer-Tim/QFCrashSafeDemo
  crash防护（QF_CrashSafe）
  简介：防止常见的bug导致crash，并收集crash原因和堆栈信息；收集导致crash的错误信息和堆栈信息。
  使用规则：
