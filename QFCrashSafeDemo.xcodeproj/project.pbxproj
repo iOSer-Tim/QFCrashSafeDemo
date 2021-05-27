@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDA7B293265E5C7A00E0979F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA7B292265E5C7A00E0979F /* AppDelegate.m */; };
+		DDA7B29E265E5C7B00E0979F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDA7B29D265E5C7B00E0979F /* Assets.xcassets */; };
+		DDA7B2A4265E5C7B00E0979F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA7B2A3265E5C7B00E0979F /* main.m */; };
+		DDA7B2AE265E5C7C00E0979F /* QFCrashSafeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA7B2AD265E5C7C00E0979F /* QFCrashSafeDemoTests.m */; };
+		DDA7B2B9265E5C7C00E0979F /* QFCrashSafeDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA7B2B8265E5C7C00E0979F /* QFCrashSafeDemoUITests.m */; };
+		DDA7B2D4265E5D5300E0979F /* QF_NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA7B2D3265E5D5300E0979F /* QF_NextViewController.m */; };
+		DDA7B2EF265E5D6D00E0979F /* QF_TryCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA7B2DA265E5D6D00E0979F /* QF_TryCrash.m */; };
+		DDA7B2F0265E5D6D00E0979F /* QF_CrashReport.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA7B2DD265E5D6D00E0979F /* QF_CrashReport.m */; };
+		DDA7B2F1265E5D6D00E0979F /* NSString+Crash.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA7B2DF265E5D6D00E0979F /* NSString+Crash.m */; };
+		DDA7B2F2265E5D6D00E0979F /* NSDictionary+Crash.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA7B2E0265E5D6D00E0979F /* NSDictionary+Crash.m */; };
+		DDA7B2F3265E5D6D00E0979F /* NSObject+UnrecognizedSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA7B2E1265E5D6D00E0979F /* NSObject+UnrecognizedSelector.m */; };
+		DDA7B2F4265E5D6D00E0979F /* NSObject+KVOCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA7B2E2265E5D6D00E0979F /* NSObject+KVOCrash.m */; };
+		DDA7B2F5265E5D6D00E0979F /* NSObject+KVCCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA7B2E3265E5D6D00E0979F /* NSObject+KVCCrash.m */; };
+		DDA7B2F6265E5D6D00E0979F /* NSAttributedString+Crash.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA7B2E5265E5D6D00E0979F /* NSAttributedString+Crash.m */; };
+		DDA7B2F7265E5D6D00E0979F /* NSArray+Crash.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA7B2EB265E5D6D00E0979F /* NSArray+Crash.m */; };
+		DDA7B2F8265E5D6D00E0979F /* QF_CrashSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA7B2ED265E5D6D00E0979F /* QF_CrashSafe.m */; };
+		DDA7B30A265E5E5A00E0979F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA7B309265E5E5A00E0979F /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDA7B2AA265E5C7C00E0979F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDA7B286265E5C7A00E0979F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDA7B28D265E5C7A00E0979F;
+			remoteInfo = QFCrashSafeDemo;
+		};
+		DDA7B2B5265E5C7C00E0979F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDA7B286265E5C7A00E0979F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDA7B28D265E5C7A00E0979F;
+			remoteInfo = QFCrashSafeDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DDA7B28E265E5C7A00E0979F /* QFCrashSafeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QFCrashSafeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDA7B291265E5C7A00E0979F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DDA7B292265E5C7A00E0979F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DDA7B29D265E5C7B00E0979F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDA7B2A2265E5C7B00E0979F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDA7B2A3265E5C7B00E0979F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DDA7B2A9265E5C7C00E0979F /* QFCrashSafeDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QFCrashSafeDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDA7B2AD265E5C7C00E0979F /* QFCrashSafeDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QFCrashSafeDemoTests.m; sourceTree = "<group>"; };
+		DDA7B2AF265E5C7C00E0979F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDA7B2B4265E5C7C00E0979F /* QFCrashSafeDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QFCrashSafeDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDA7B2B8265E5C7C00E0979F /* QFCrashSafeDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QFCrashSafeDemoUITests.m; sourceTree = "<group>"; };
+		DDA7B2BA265E5C7C00E0979F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDA7B2D2265E5D5300E0979F /* QF_NextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QF_NextViewController.h; sourceTree = "<group>"; };
+		DDA7B2D3265E5D5300E0979F /* QF_NextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QF_NextViewController.m; sourceTree = "<group>"; };
+		DDA7B2DA265E5D6D00E0979F /* QF_TryCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QF_TryCrash.m; sourceTree = "<group>"; };
+		DDA7B2DB265E5D6D00E0979F /* QF_CrashReport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QF_CrashReport.h; sourceTree = "<group>"; };
+		DDA7B2DC265E5D6D00E0979F /* QF_TryCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QF_TryCrash.h; sourceTree = "<group>"; };
+		DDA7B2DD265E5D6D00E0979F /* QF_CrashReport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QF_CrashReport.m; sourceTree = "<group>"; };
+		DDA7B2DF265E5D6D00E0979F /* NSString+Crash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Crash.m"; sourceTree = "<group>"; };
+		DDA7B2E0265E5D6D00E0979F /* NSDictionary+Crash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Crash.m"; sourceTree = "<group>"; };
+		DDA7B2E1265E5D6D00E0979F /* NSObject+UnrecognizedSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+UnrecognizedSelector.m"; sourceTree = "<group>"; };
+		DDA7B2E2265E5D6D00E0979F /* NSObject+KVOCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KVOCrash.m"; sourceTree = "<group>"; };
+		DDA7B2E3265E5D6D00E0979F /* NSObject+KVCCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KVCCrash.m"; sourceTree = "<group>"; };
+		DDA7B2E4265E5D6D00E0979F /* NSArray+Crash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Crash.h"; sourceTree = "<group>"; };
+		DDA7B2E5265E5D6D00E0979F /* NSAttributedString+Crash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+Crash.m"; sourceTree = "<group>"; };
+		DDA7B2E6265E5D6D00E0979F /* NSString+Crash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Crash.h"; sourceTree = "<group>"; };
+		DDA7B2E7265E5D6D00E0979F /* NSObject+KVCCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+KVCCrash.h"; sourceTree = "<group>"; };
+		DDA7B2E8265E5D6D00E0979F /* NSObject+KVOCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+KVOCrash.h"; sourceTree = "<group>"; };
+		DDA7B2E9265E5D6D00E0979F /* NSObject+UnrecognizedSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+UnrecognizedSelector.h"; sourceTree = "<group>"; };
+		DDA7B2EA265E5D6D00E0979F /* NSDictionary+Crash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Crash.h"; sourceTree = "<group>"; };
+		DDA7B2EB265E5D6D00E0979F /* NSArray+Crash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Crash.m"; sourceTree = "<group>"; };
+		DDA7B2EC265E5D6D00E0979F /* NSAttributedString+Crash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+Crash.h"; sourceTree = "<group>"; };
+		DDA7B2ED265E5D6D00E0979F /* QF_CrashSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QF_CrashSafe.m; sourceTree = "<group>"; };
+		DDA7B2EE265E5D6D00E0979F /* QF_CrashSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QF_CrashSafe.h; sourceTree = "<group>"; };
+		DDA7B308265E5E5A00E0979F /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DDA7B309265E5E5A00E0979F /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDA7B28B265E5C7A00E0979F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDA7B2A6265E5C7C00E0979F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDA7B2B1265E5C7C00E0979F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDA7B285265E5C7A00E0979F = {
+			isa = PBXGroup;
+			children = (
+				DDA7B290265E5C7A00E0979F /* QFCrashSafeDemo */,
+				DDA7B2AC265E5C7C00E0979F /* QFCrashSafeDemoTests */,
+				DDA7B2B7265E5C7C00E0979F /* QFCrashSafeDemoUITests */,
+				DDA7B28F265E5C7A00E0979F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDA7B28F265E5C7A00E0979F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDA7B28E265E5C7A00E0979F /* QFCrashSafeDemo.app */,
+				DDA7B2A9265E5C7C00E0979F /* QFCrashSafeDemoTests.xctest */,
+				DDA7B2B4265E5C7C00E0979F /* QFCrashSafeDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDA7B290265E5C7A00E0979F /* QFCrashSafeDemo */ = {
+			isa = PBXGroup;
+			children = (
+				DDA7B2D8265E5D6D00E0979F /* CrashSafe */,
+				DDA7B291265E5C7A00E0979F /* AppDelegate.h */,
+				DDA7B292265E5C7A00E0979F /* AppDelegate.m */,
+				DDA7B308265E5E5A00E0979F /* ViewController.h */,
+				DDA7B309265E5E5A00E0979F /* ViewController.m */,
+				DDA7B2D2265E5D5300E0979F /* QF_NextViewController.h */,
+				DDA7B2D3265E5D5300E0979F /* QF_NextViewController.m */,
+				DDA7B29D265E5C7B00E0979F /* Assets.xcassets */,
+				DDA7B2A2265E5C7B00E0979F /* Info.plist */,
+				DDA7B2A3265E5C7B00E0979F /* main.m */,
+			);
+			path = QFCrashSafeDemo;
+			sourceTree = "<group>";
+		};
+		DDA7B2AC265E5C7C00E0979F /* QFCrashSafeDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDA7B2AD265E5C7C00E0979F /* QFCrashSafeDemoTests.m */,
+				DDA7B2AF265E5C7C00E0979F /* Info.plist */,
+			);
+			path = QFCrashSafeDemoTests;
+			sourceTree = "<group>";
+		};
+		DDA7B2B7265E5C7C00E0979F /* QFCrashSafeDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DDA7B2B8265E5C7C00E0979F /* QFCrashSafeDemoUITests.m */,
+				DDA7B2BA265E5C7C00E0979F /* Info.plist */,
+			);
+			path = QFCrashSafeDemoUITests;
+			sourceTree = "<group>";
+		};
+		DDA7B2D8265E5D6D00E0979F /* CrashSafe */ = {
+			isa = PBXGroup;
+			children = (
+				DDA7B2DE265E5D6D00E0979F /* Container */,
+				DDA7B2D9265E5D6D00E0979F /* CrashTool */,
+				DDA7B2EE265E5D6D00E0979F /* QF_CrashSafe.h */,
+				DDA7B2ED265E5D6D00E0979F /* QF_CrashSafe.m */,
+			);
+			path = CrashSafe;
+			sourceTree = "<group>";
+		};
+		DDA7B2D9265E5D6D00E0979F /* CrashTool */ = {
+			isa = PBXGroup;
+			children = (
+				DDA7B2DB265E5D6D00E0979F /* QF_CrashReport.h */,
+				DDA7B2DD265E5D6D00E0979F /* QF_CrashReport.m */,
+				DDA7B2DC265E5D6D00E0979F /* QF_TryCrash.h */,
+				DDA7B2DA265E5D6D00E0979F /* QF_TryCrash.m */,
+			);
+			path = CrashTool;
+			sourceTree = "<group>";
+		};
+		DDA7B2DE265E5D6D00E0979F /* Container */ = {
+			isa = PBXGroup;
+			children = (
+				DDA7B2E4265E5D6D00E0979F /* NSArray+Crash.h */,
+				DDA7B2EB265E5D6D00E0979F /* NSArray+Crash.m */,
+				DDA7B2EC265E5D6D00E0979F /* NSAttributedString+Crash.h */,
+				DDA7B2E5265E5D6D00E0979F /* NSAttributedString+Crash.m */,
+				DDA7B2EA265E5D6D00E0979F /* NSDictionary+Crash.h */,
+				DDA7B2E0265E5D6D00E0979F /* NSDictionary+Crash.m */,
+				DDA7B2E7265E5D6D00E0979F /* NSObject+KVCCrash.h */,
+				DDA7B2E3265E5D6D00E0979F /* NSObject+KVCCrash.m */,
+				DDA7B2E8265E5D6D00E0979F /* NSObject+KVOCrash.h */,
+				DDA7B2E2265E5D6D00E0979F /* NSObject+KVOCrash.m */,
+				DDA7B2E9265E5D6D00E0979F /* NSObject+UnrecognizedSelector.h */,
+				DDA7B2E1265E5D6D00E0979F /* NSObject+UnrecognizedSelector.m */,
+				DDA7B2E6265E5D6D00E0979F /* NSString+Crash.h */,
+				DDA7B2DF265E5D6D00E0979F /* NSString+Crash.m */,
+			);
+			path = Container;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDA7B28D265E5C7A00E0979F /* QFCrashSafeDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDA7B2BD265E5C7C00E0979F /* Build configuration list for PBXNativeTarget "QFCrashSafeDemo" */;
+			buildPhases = (
+				DDA7B28A265E5C7A00E0979F /* Sources */,
+				DDA7B28B265E5C7A00E0979F /* Frameworks */,
+				DDA7B28C265E5C7A00E0979F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QFCrashSafeDemo;
+			productName = QFCrashSafeDemo;
+			productReference = DDA7B28E265E5C7A00E0979F /* QFCrashSafeDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDA7B2A8265E5C7C00E0979F /* QFCrashSafeDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDA7B2C0265E5C7C00E0979F /* Build configuration list for PBXNativeTarget "QFCrashSafeDemoTests" */;
+			buildPhases = (
+				DDA7B2A5265E5C7C00E0979F /* Sources */,
+				DDA7B2A6265E5C7C00E0979F /* Frameworks */,
+				DDA7B2A7265E5C7C00E0979F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDA7B2AB265E5C7C00E0979F /* PBXTargetDependency */,
+			);
+			name = QFCrashSafeDemoTests;
+			productName = QFCrashSafeDemoTests;
+			productReference = DDA7B2A9265E5C7C00E0979F /* QFCrashSafeDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DDA7B2B3265E5C7C00E0979F /* QFCrashSafeDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDA7B2C3265E5C7C00E0979F /* Build configuration list for PBXNativeTarget "QFCrashSafeDemoUITests" */;
+			buildPhases = (
+				DDA7B2B0265E5C7C00E0979F /* Sources */,
+				DDA7B2B1265E5C7C00E0979F /* Frameworks */,
+				DDA7B2B2265E5C7C00E0979F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDA7B2B6265E5C7C00E0979F /* PBXTargetDependency */,
+			);
+			name = QFCrashSafeDemoUITests;
+			productName = QFCrashSafeDemoUITests;
+			productReference = DDA7B2B4265E5C7C00E0979F /* QFCrashSafeDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDA7B286265E5C7A00E0979F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					DDA7B28D265E5C7A00E0979F = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					DDA7B2A8265E5C7C00E0979F = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = DDA7B28D265E5C7A00E0979F;
+					};
+					DDA7B2B3265E5C7C00E0979F = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = DDA7B28D265E5C7A00E0979F;
+					};
+				};
+			};
+			buildConfigurationList = DDA7B289265E5C7A00E0979F /* Build configuration list for PBXProject "QFCrashSafeDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDA7B285265E5C7A00E0979F;
+			productRefGroup = DDA7B28F265E5C7A00E0979F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDA7B28D265E5C7A00E0979F /* QFCrashSafeDemo */,
+				DDA7B2A8265E5C7C00E0979F /* QFCrashSafeDemoTests */,
+				DDA7B2B3265E5C7C00E0979F /* QFCrashSafeDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDA7B28C265E5C7A00E0979F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDA7B29E265E5C7B00E0979F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDA7B2A7265E5C7C00E0979F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDA7B2B2265E5C7C00E0979F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDA7B28A265E5C7A00E0979F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDA7B30A265E5E5A00E0979F /* ViewController.m in Sources */,
+				DDA7B2F4265E5D6D00E0979F /* NSObject+KVOCrash.m in Sources */,
+				DDA7B2F1265E5D6D00E0979F /* NSString+Crash.m in Sources */,
+				DDA7B2F2265E5D6D00E0979F /* NSDictionary+Crash.m in Sources */,
+				DDA7B2EF265E5D6D00E0979F /* QF_TryCrash.m in Sources */,
+				DDA7B2F6265E5D6D00E0979F /* NSAttributedString+Crash.m in Sources */,
+				DDA7B2F0265E5D6D00E0979F /* QF_CrashReport.m in Sources */,
+				DDA7B2F7265E5D6D00E0979F /* NSArray+Crash.m in Sources */,
+				DDA7B293265E5C7A00E0979F /* AppDelegate.m in Sources */,
+				DDA7B2F3265E5D6D00E0979F /* NSObject+UnrecognizedSelector.m in Sources */,
+				DDA7B2D4265E5D5300E0979F /* QF_NextViewController.m in Sources */,
+				DDA7B2F8265E5D6D00E0979F /* QF_CrashSafe.m in Sources */,
+				DDA7B2F5265E5D6D00E0979F /* NSObject+KVCCrash.m in Sources */,
+				DDA7B2A4265E5C7B00E0979F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDA7B2A5265E5C7C00E0979F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDA7B2AE265E5C7C00E0979F /* QFCrashSafeDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDA7B2B0265E5C7C00E0979F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDA7B2B9265E5C7C00E0979F /* QFCrashSafeDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDA7B2AB265E5C7C00E0979F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDA7B28D265E5C7A00E0979F /* QFCrashSafeDemo */;
+			targetProxy = DDA7B2AA265E5C7C00E0979F /* PBXContainerItemProxy */;
+		};
+		DDA7B2B6265E5C7C00E0979F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDA7B28D265E5C7A00E0979F /* QFCrashSafeDemo */;
+			targetProxy = DDA7B2B5265E5C7C00E0979F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DDA7B2BB265E5C7C00E0979F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DDA7B2BC265E5C7C00E0979F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDA7B2BE265E5C7C00E0979F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QFCrashSafeDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.QFCrashSafeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DDA7B2BF265E5C7C00E0979F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QFCrashSafeDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.QFCrashSafeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		DDA7B2C1265E5C7C00E0979F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QFCrashSafeDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.QFCrashSafeDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QFCrashSafeDemo.app/QFCrashSafeDemo";
+			};
+			name = Debug;
+		};
+		DDA7B2C2265E5C7C00E0979F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QFCrashSafeDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.QFCrashSafeDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QFCrashSafeDemo.app/QFCrashSafeDemo";
+			};
+			name = Release;
+		};
+		DDA7B2C4265E5C7C00E0979F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QFCrashSafeDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.QFCrashSafeDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QFCrashSafeDemo;
+			};
+			name = Debug;
+		};
+		DDA7B2C5265E5C7C00E0979F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QFCrashSafeDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.QFCrashSafeDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QFCrashSafeDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDA7B289265E5C7A00E0979F /* Build configuration list for PBXProject "QFCrashSafeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDA7B2BB265E5C7C00E0979F /* Debug */,
+				DDA7B2BC265E5C7C00E0979F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDA7B2BD265E5C7C00E0979F /* Build configuration list for PBXNativeTarget "QFCrashSafeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDA7B2BE265E5C7C00E0979F /* Debug */,
+				DDA7B2BF265E5C7C00E0979F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDA7B2C0265E5C7C00E0979F /* Build configuration list for PBXNativeTarget "QFCrashSafeDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDA7B2C1265E5C7C00E0979F /* Debug */,
+				DDA7B2C2265E5C7C00E0979F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDA7B2C3265E5C7C00E0979F /* Build configuration list for PBXNativeTarget "QFCrashSafeDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDA7B2C4265E5C7C00E0979F /* Debug */,
+				DDA7B2C5265E5C7C00E0979F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDA7B286265E5C7A00E0979F /* Project object */;
+}
