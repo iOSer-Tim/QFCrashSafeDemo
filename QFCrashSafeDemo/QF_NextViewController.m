@@ -11,11 +11,11 @@
 
 @interface QF_NextViewController ()<UITableViewDelegate,UITableViewDataSource>
 
-@property (nonatomic, strong) NSNumber *number;
+@property (nonatomic, copy) NSNumber *number;
 
 @property (nonatomic, strong) UITableView *tableView;
 
-@property (nonatomic, strong) NSArray *dataArray;
+@property (nonatomic, copy) NSArray *dataArray;
 
 @end
 
@@ -152,14 +152,19 @@
     NSObject *obj = nil;
     NSArray *ar = @[@0,@2,obj,@6];
     NSLog(@"%@",ar);
-    
+
     //数组越界
     NSArray *ar1 = @[@0,@8,@1,@3];
     NSLog(@"%@",ar1[6]);
-    
+
     //操作空数组赋值
     NSArray *ar2 = @[];
     id obj0 = ar2[1];
+
+    NSObject *obj1 = [[NSObject alloc] init];
+    [obj1 setValue:@"infi" forKey:@"bbb"];
+    
+    [obj1 valueForKey:@"key"];
     
 
 }
